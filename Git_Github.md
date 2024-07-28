@@ -123,9 +123,20 @@ $ git help config 获取详细帮助 打开网页
 
   my_secret.txt（要隐藏的文件）*.txt（隐藏所有txt文件）
 
+- git statue （状态）
+- git init (初始化)
+- git add file(添加文件跟踪) 
+- git rm --cached file (移除文件的跟踪)
+- git diff (对比修改前后区别)
+- git mv "oul_file_name" "new_file_name" (修改名称)
+- git log --oneline(查看修改情况 git log则是详细 git log -p全面)
+- git branch branch_name (增加新分支)
+- git switch branch_name(跳转新分支)
+- git commit -a -m “（具体描述）”
+- git merge -m"" branch_name(合并分支branch_name到现在的分支)
+- git branch -d branch_name (删除该分支)
 
-
-## 相关概念
+## 相关概念添加文件
 
 - 分支：创建分支后，每当你切换分支时，对应的文件都会切换到其分支。eg：main分支 branch1分支 当分支切换到branch1并在该分支进行修改时，只会修改branch1分支中文件的内容，而当你切换到main分支后，无论branch1中如何修改，都不会影响到main分支，除非使用合并。
 
